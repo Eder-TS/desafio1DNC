@@ -1,0 +1,158 @@
+*{
+    margin: 0px;
+    font-family: 'inter';
+}
+
+#cabecalho{
+    width: 1440px;
+    height: 475px;
+    background-image: url(imagens/background-cabecalho.svg);
+    color: #FFFFFF;
+}
+
+#titulo-cabecalho{    
+    padding-top: 206px;
+    padding-left: 62px;
+    margin-bottom: 21px;
+    margin-right: auto;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+#texto-cabecalho{
+    padding-left: 62px;
+    padding-bottom: 144px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#barra-dados{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding: 90px 0px 90px 170px;
+    background-color: #F9F9F9;
+}
+
+.dados{
+    font-size: 20px;
+    font-weight:400;
+}
+
+#dados-esquerda{
+    width: 350px;
+    padding-right: 90px;
+}
+
+#dados-centro{
+    width: 300px;
+    margin-right: 140px;
+}
+
+#dados-direita{
+    width: 290px;
+}
+
+.texto-maior{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#bloco-central{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding-top: 68px;
+    align-items: center;
+    margin-bottom: 91px;
+}
+
+#texto-central{
+    margin: auto;
+    width: 820px;
+}
+
+#titulo-bloco-central{
+    font-size: 40px;
+    font-weight: 500;
+    padding: 0px 0px 0px 40px;
+}
+
+#texto-bloco-central{
+    font-size: 24px;
+    font-weight: 300;
+    padding: 40px;
+}
+
+#rodape{
+    width: 1440px;
+    height: 638px;
+    background-image: url(imagens/background-cabecalho.svg);
+    color: #FFFFFF;
+    display: grid;
+    grid-auto-flow: row;
+    justify-content: center;
+
+}
+
+#titulo-rodape{    
+    padding-top: 95px;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#formulario{
+    display: grid;
+    grid-auto-flow: row;
+    justify-content: center;
+    margin-bottom: 88px;
+}
+
+@font-face {
+    font-family: "Raleway", sans-serif;
+    src: url("/fontes/Raleway-Bold.ttf") format("ttf");
+}
+
+.input{
+    width: 508px;
+    height: 72px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+}
+
+input::placeholder{
+    opacity: 0.7;
+    padding: 30px;
+}
+
+#nome{
+    margin-bottom: 55px;
+    font-size: 24px;
+}
+
+#email{
+    margin-bottom: 68px;
+    font-size: 24px;
+}
+
+#botao{
+    width: 286px;
+    height: 74px;
+    margin: 0 auto;
+    background-color: #C07212;
+    color: #FFFFFF;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#botao:hover{
+    transform: translateY(-5px);
+    transition-duration: 0.2s;
+}
+
+#botao:active{
+    transform: translateY(10px);
+}
